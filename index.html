@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CSS Selectors in Action</h1>
+
+  <div class="wrapper">
+    <div class="section1">
+      <h2>Advanced Selectors</h2>
+      <p>This section uses an attribute selector: <code>div[class^="section"]</code> to apply styles to all divs whose class starts with "section".</p>
+      <p>It also demonstrates combinators like <code>></code> and <code>nth-child</code> to target specific elements.</p>
+    </div>
+
+    <div class="section2">
+      <h2>Pseudo Classes</h2>
+      <p>Hover over this box to see the <code>:hover</code> pseudo-class in action.</p>
+      <p>Try focusing on the input below to trigger <code>:focus</code>.</p>
+      <input type="text" placeholder="Click to focus">
+    </div>
+
+    <div class="section3">
+      <h2>Pseudo Elements</h2>
+      <p>This section uses <code>::before</code> and <code>::after</code> to insert content around the element.</p>
+      <p>Notice how the checkmark appears after the heading, and the pin icon appears before the second section.</p>
+    </div>
+
+</html>

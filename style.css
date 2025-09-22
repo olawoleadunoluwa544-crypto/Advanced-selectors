@@ -1,0 +1,13 @@
+div[class^="section"]{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.wrapper .section2{
+    background-color: coral;
+}
+.section1:hover{
+    background-color:red;
+    cursor: pointer;
+}
